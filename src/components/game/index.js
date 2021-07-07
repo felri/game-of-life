@@ -75,7 +75,7 @@ const Game = () => {
   };
 
   const checkSize = (value) => {
-    if (parseInt(value) === 0 || isNaN(parseInt(value))) return 5;
+    if (parseInt(value) === 0 || isNaN(parseInt(value))) return 1;
     else if (parseInt(value) > 100) return 100;
     return parseInt(value);
   };
