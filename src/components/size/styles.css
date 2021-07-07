@@ -1,0 +1,13 @@
+
+label {
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.container-size-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
